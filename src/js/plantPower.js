@@ -1,5 +1,8 @@
 // This funciton stores our state.
-
+// can use 
+//storeState = (initialState)
+//currentState = initialState;
+//initialState = {plant1, plant2}
 export const storeState = () => {
   let currentState = {};
   return (stateChangeFunction = state => state) => {
