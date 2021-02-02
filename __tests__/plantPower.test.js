@@ -1,8 +1,7 @@
-import { stateControl, changeState } from '../src/js/plantPower.js';
+import { stateControl, changeState, feed, blueFood, hydrate, superWater } from '../src/js/plantPower.js';
 
 describe('changeState', () => {
   test("This will test that state exists", () => {
-    
     expect(stateControl()).toEqual({});
   });
 

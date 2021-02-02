@@ -22,4 +22,22 @@ export const changeState = (prop) => {
   }
 }
 
+export const feed = changeState("soil")(1);
+export const blueFood = changeState("soil")(5);
 
+export const hydrate = changeState("water")(1);
+export const superWater = changeState("water")(5);
+
+export const giveSun = changeState ("light")(1);
+export const growLamp = changeState ("light")(5);
+
+export const eatFly = changeState ("protein")(1);
+
+
+
+
+
+
+// let flower= { soil: 0, light: 0, water: 0 }
+// let cactus = {}
+// let venusFlytrap = { soil: 0, light: 0, water: 0, protein: 0}

@@ -3,9 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
   <title>Plant Power</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class = "soil">
+      <label for="soil"> Select a Feed Type: </label>
+      <select name="soil" id="feed-type">
+        <option value="feed">Feed</option>
+        <option value="blueFood">Blue Food</option>
+      </select>
+      <button class="btn-secondary" id="feed">Add soil</button>
+    </div>
+
+    <div class = "hydrate">
+      <label for="hydrate"> Select a Feed Type: </label>
+      <select name="hydrate" id="hydration-type">
+        <option value="hydrate">hydrate</option>
+        <option value="superWater">Super Water</option>
+      </select>
+      <button class="btn-secondary" id="hydrate">Water Your Plant</button>
+    </div>
+
+    <div class = "light">
+      <label for="light"> Select a Light Type: </label>
+      <select name="light" id="light-type">
+        <option value="giveSun">Put in a window:</option>
+        <option value="growLamp">Use a grow lamp:</option>
+      </select>
+      <button class="btn-secondary" id="light">Give your Plant light</button>
+    </div>
+
+    <h1>Plant Values</h1>
+    <h3><div id="soil-value">Soil: 0</div></h3> 
+    <h3><div id="hydraValue">Water: 0</div></h3>
+    <h3><div id="lightValue">Light: 0</div></h3>
+  </div>
 </body>
 </html>
