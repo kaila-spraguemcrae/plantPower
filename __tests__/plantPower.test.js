@@ -4,7 +4,7 @@ describe('changeState', () => {
 
   test("This will test that state is being changed.", () => {
     // const stateControl = storeState();
-    const test = changeState("test")(2);
+    const test = changeState("test")(1);
     expect(stateControl(test)).toEqual({test:1});
   });
 });
