@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'TODO',
+      title: 'plant-power',
       template: './src/index.html',
       inject: 'body'
     }),
