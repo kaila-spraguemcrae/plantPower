@@ -1,6 +1,10 @@
 import { stateControl, changeState } from '../src/js/plantPower.js';
 
 describe('changeState', () => {
+  test("This will test that state exists", () => {
+    
+    expect(stateControl()).toEqual({});
+  });
 
   test("This will test that state is being changed.", () => {
     // const stateControl = storeState();
